@@ -1,0 +1,1560 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAFqBv7SasLvO58=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAFqBv7Sa8LwNlw=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFqBv8I68L2JIE=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqBv8I6sL0jCQ="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqBv8I68L3CwA=",
+									"_parent": {
+										"$ref": "AAAAAAFqBv8I68L2JIE="
+									},
+									"font": "Arial;13;0",
+									"left": 570,
+									"top": 58,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "START",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 560,
+							"top": 48,
+							"width": 74.18994140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFqBv8I68L3CwA="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFqBv+ZQsMKuN0=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqBv+ZQsMI29M="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqBv+ZQsMLJ14=",
+									"_parent": {
+										"$ref": "AAAAAAFqBv+ZQsMKuN0="
+									},
+									"font": "Arial;13;0",
+									"left": 562,
+									"top": 874,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "END",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 552,
+							"top": 864,
+							"width": 74.18994140625,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFqBv+ZQsMLJ14="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFqBwBbMcMVs+8=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqBwBbMMMT1Vk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqBwBbMcMWv6Y=",
+									"_parent": {
+										"$ref": "AAAAAAFqBwBbMcMVs+8="
+									},
+									"font": "Arial;13;0",
+									"left": 530,
+									"top": 114,
+									"width": 133,
+									"height": 52,
+									"text": "Choose 1 player - Dice.dice(). Set moves_left to 7 for player 1 and 2.",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 520,
+							"top": 104,
+							"width": 153,
+							"height": 81,
+							"nameLabel": {
+								"$ref": "AAAAAAFqBwBbMcMWv6Y="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqBw1UW8MjW9A=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqBw1UW8Mh+CQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqBw1UXMMkqB4=",
+									"_parent": {
+										"$ref": "AAAAAAFqBw1UW8MjW9A="
+									},
+									"model": {
+										"$ref": "AAAAAAFqBw1UW8Mh+CQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 610,
+									"top": 85,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqBw1UW8MjW9A="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqBwBbMcMVs+8="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqBv8I68L2JIE="
+							},
+							"lineStyle": 2,
+							"points": "596:80;596:104",
+							"nameLabel": {
+								"$ref": "AAAAAAFqBw1UXMMkqB4="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFqBw2YK8MstbM=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqBw2YK8MqLIk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqBw2YK8Mt7Gs=",
+									"_parent": {
+										"$ref": "AAAAAAFqBw2YK8MstbM="
+									},
+									"font": "Arial;13;0",
+									"left": 572.542236328125,
+									"top": 371.5,
+									"width": 57.08447265625,
+									"height": 39,
+									"text": "Player's moves =0?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 544,
+							"top": 352,
+							"width": 114.1689453125,
+							"height": 78,
+							"nameLabel": {
+								"$ref": "AAAAAAFqBw2YK8Mt7Gs="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFqBxF1XMNHsnA=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqBxF1XMNFJz0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqBxF1XMNImoY=",
+									"_parent": {
+										"$ref": "AAAAAAFqBxF1XMNHsnA="
+									},
+									"font": "Arial;13;0",
+									"left": 490,
+									"top": 466,
+									"width": 221,
+									"height": 26,
+									"text": "Offer list of cells available for a move. - Board.neighbours()",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 480,
+							"top": 456,
+							"width": 241,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFqBxF1XMNImoY="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqBxKnG8NURvk=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqBxKnG8NS1bY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqBxKnG8NV+aU=",
+									"_parent": {
+										"$ref": "AAAAAAFqBxKnG8NURvk="
+									},
+									"model": {
+										"$ref": "AAAAAAFqBxKnG8NS1bY="
+									},
+									"font": "Arial;13;0",
+									"left": 606,
+									"top": 435,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqBxKnG8NURvk="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqBxF1XMNHsnA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqBw2YK8MstbM="
+							},
+							"lineStyle": 2,
+							"points": "600:429;600:456",
+							"nameLabel": {
+								"$ref": "AAAAAAFqBxKnG8NV+aU="
+							}
+						},
+						{
+							"_type": "FCDataView",
+							"_id": "AAAAAAFqBxO2ccNgeTM=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqBxO2ccNeb5Y="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqBxO2ccNh8kY=",
+									"_parent": {
+										"$ref": "AAAAAAFqBxO2ccNgeTM="
+									},
+									"font": "Arial;13;0",
+									"left": 563,
+									"top": 546,
+									"width": 83,
+									"height": 39,
+									"text": "Player selects the cell he wants to take.",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 536,
+							"width": 153,
+							"height": 65,
+							"nameLabel": {
+								"$ref": "AAAAAAFqBxO2ccNh8kY="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFqBxQ9UcNsvAA=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqBxQ9UMNqqLk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqBxQ9UcNtc+4=",
+									"_parent": {
+										"$ref": "AAAAAAFqBxQ9UcNsvAA="
+									},
+									"font": "Arial;13;0",
+									"left": 554.25,
+									"top": 648.25,
+									"width": 100.5,
+									"height": 32.5,
+									"text": "Is cell taken?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 504,
+							"top": 632,
+							"width": 201,
+							"height": 65,
+							"nameLabel": {
+								"$ref": "AAAAAAFqBxQ9UcNtc+4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqCybn5CWg39M=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqCybn4yWe7xQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqCybn5CWhi3M=",
+									"_parent": {
+										"$ref": "AAAAAAFqCybn5CWg39M="
+									},
+									"model": {
+										"$ref": "AAAAAAFqCybn4yWe7xQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 615,
+									"top": 511,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqCybn5CWg39M="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqBxO2ccNgeTM="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqBxF1XMNHsnA="
+							},
+							"lineStyle": 2,
+							"points": "601:501;601:536",
+							"nameLabel": {
+								"$ref": "AAAAAAFqCybn5CWhi3M="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqCycVxiWpARc=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqCycVxiWnATo="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqCycVxiWq+zY=",
+									"_parent": {
+										"$ref": "AAAAAAFqCycVxiWpARc="
+									},
+									"model": {
+										"$ref": "AAAAAAFqCycVxiWnATo="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 618,
+									"top": 609,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqCycVxiWpARc="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqBxQ9UcNsvAA="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqBxO2ccNgeTM="
+							},
+							"lineStyle": 2,
+							"points": "604:600;604:632",
+							"nameLabel": {
+								"$ref": "AAAAAAFqCycVxiWq+zY="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFqCydGziWyyRw=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqCydGzSWwxI0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqCydGziWzrMk=",
+									"_parent": {
+										"$ref": "AAAAAAFqCydGziWyyRw="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 650,
+									"width": 68,
+									"height": 39,
+									"text": "Player takes the cell",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 368,
+							"top": 640,
+							"width": 88,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAFqCydGziWzrMk="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFqCyfpDiXJniU=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqCyfpDiXHgDU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqCyfpDiXK+Rc=",
+									"_parent": {
+										"$ref": "AAAAAAFqCyfpDiXJniU="
+									},
+									"font": "Arial;13;0",
+									"left": 538.542236328125,
+									"top": 766.25,
+									"width": 117.08447265625,
+									"height": 44.5,
+									"text": "Board decides with dice(). Attack was successful? ",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 480,
+							"top": 744,
+							"width": 234.1689453125,
+							"height": 89,
+							"nameLabel": {
+								"$ref": "AAAAAAFqCyfpDiXK+Rc="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqCyvgBSX3e9A=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqCyvgBSX1rnI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqCyvgBSX4sN4=",
+									"_parent": {
+										"$ref": "AAAAAAFqCyvgBSX3e9A="
+									},
+									"model": {
+										"$ref": "AAAAAAFqCyvgBSX1rnI="
+									},
+									"font": "Arial;13;0",
+									"left": 470,
+									"top": 676,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqCyvgBSX3e9A="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqCydGziWyyRw="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqBxQ9UcNsvAA="
+							},
+							"lineStyle": 2,
+							"points": "504:667;455:667",
+							"nameLabel": {
+								"$ref": "AAAAAAFqCyvgBSX4sN4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqCyxNTyYQhPc=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqCyxNTiYOAik="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqCyxNTyYRE+4=",
+									"_parent": {
+										"$ref": "AAAAAAFqCyxNTyYQhPc="
+									},
+									"model": {
+										"$ref": "AAAAAAFqCyxNTiYOAik="
+									},
+									"font": "Arial;13;0",
+									"left": 608,
+									"top": 713,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqCyxNTyYQhPc="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqCyfpDiXJniU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqBxQ9UcNsvAA="
+							},
+							"lineStyle": 2,
+							"points": "604:696;604:744",
+							"nameLabel": {
+								"$ref": "AAAAAAFqCyxNTyYRE+4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqCy0+zSYc+Kg=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqCy0+zSYag3g="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqCy0+zSYd7kE=",
+									"_parent": {
+										"$ref": "AAAAAAFqCy0+zSYc+Kg="
+									},
+									"model": {
+										"$ref": "AAAAAAFqCy0+zSYag3g="
+									},
+									"font": "Arial;13;0",
+									"left": 391,
+									"top": 777,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqCy0+zSYc+Kg="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqCydGziWyyRw="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqCyfpDiXJniU="
+							},
+							"lineStyle": 2,
+							"points": "480:784;416:784;416:698",
+							"nameLabel": {
+								"$ref": "AAAAAAFqCy0+zSYd7kE="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFqCzF7bCaNYxU=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqCzF7bCaLCtc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqCzF7bCaOV3I=",
+									"_parent": {
+										"$ref": "AAAAAAFqCzF7bCaNYxU="
+									},
+									"font": "Arial;13;0",
+									"left": 522,
+									"top": 218,
+									"width": 149,
+									"height": 26,
+									"text": "Another player makes the move. His moves -=1",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 512,
+							"top": 208,
+							"width": 169,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAFqCzF7bCaOV3I="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqCzMBiCa39ug=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqCzMBiCa1bdY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqCzMBiCa4zjE=",
+									"_parent": {
+										"$ref": "AAAAAAFqCzMBiCa39ug="
+									},
+									"model": {
+										"$ref": "AAAAAAFqCzMBiCa1bdY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 610,
+									"top": 189,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqCzMBiCa39ug="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqCzF7bCaNYxU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqBwBbMcMVs+8="
+							},
+							"lineStyle": 2,
+							"points": "596:184;596:208",
+							"nameLabel": {
+								"$ref": "AAAAAAFqCzMBiCa4zjE="
+							}
+						},
+						{
+							"_type": "FCDecisionView",
+							"_id": "AAAAAAFqCzN7+SbB+KQ=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqCzN7+Sa/UF0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqCzN7+ibCul4=",
+									"_parent": {
+										"$ref": "AAAAAAFqCzN7+SbB+KQ="
+									},
+									"font": "Arial;13;0",
+									"left": 130,
+									"top": 652,
+									"width": 84,
+									"height": 40,
+									"text": "Is this other player's home cell?",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 88,
+							"top": 632,
+							"width": 168,
+							"height": 80,
+							"nameLabel": {
+								"$ref": "AAAAAAFqCzN7+ibCul4="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqC3tEJSbc5YI=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqC3tEJSbaSiA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqC3tEJSbdBc8=",
+									"_parent": {
+										"$ref": "AAAAAAFqC3tEJSbc5YI="
+									},
+									"model": {
+										"$ref": "AAAAAAFqC3tEJSbaSiA="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 310,
+									"top": 679,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqC3tEJSbc5YI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqCzN7+SbB+KQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqCydGziWyyRw="
+							},
+							"lineStyle": 2,
+							"points": "368:670;255:670",
+							"nameLabel": {
+								"$ref": "AAAAAAFqC3tEJSbdBc8="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFqC3utVSblX68=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqC3utVCbjZbw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqC3utVSbmm9s=",
+									"_parent": {
+										"$ref": "AAAAAAFqC3utVSblX68="
+									},
+									"font": "Arial;13;0",
+									"left": 114,
+									"top": 874,
+									"width": 141,
+									"height": 13,
+									"text": "Player won",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 104,
+							"top": 864,
+							"width": 161,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAFqC3utVSbmm9s="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqC3vlVSbwN4o=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqC3vlVSbuvuE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqC3vlVSbxv+w=",
+									"_parent": {
+										"$ref": "AAAAAAFqC3vlVSbwN4o="
+									},
+									"model": {
+										"$ref": "AAAAAAFqC3vlVSbuvuE="
+									},
+									"font": "Arial;13;0",
+									"left": 178,
+									"top": 780,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqC3vlVSbwN4o="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqC3utVSblX68="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqCzN7+SbB+KQ="
+							},
+							"lineStyle": 2,
+							"points": "174:711;174:864",
+							"nameLabel": {
+								"$ref": "AAAAAAFqC3vlVSbxv+w="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqC3wtoCb7p1c=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqC3wtoCb5aEs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqC3wtoCb8D3c=",
+									"_parent": {
+										"$ref": "AAAAAAFqC3wtoCb7p1c="
+									},
+									"model": {
+										"$ref": "AAAAAAFqC3wtoCb5aEs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 408,
+									"top": 859,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqC3wtoCb7p1c="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqBv+ZQsMKuN0="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqC3utVSblX68="
+							},
+							"lineStyle": 2,
+							"points": "264:880;552:880",
+							"nameLabel": {
+								"$ref": "AAAAAAFqC3wtoCb8D3c="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqC3yEzycGX0s=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqC3yEzycEhRw="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqC3yEzycHTYQ=",
+									"_parent": {
+										"$ref": "AAAAAAFqC3yEzycGX0s="
+									},
+									"model": {
+										"$ref": "AAAAAAFqC3yEzycEhRw="
+									},
+									"font": "Arial;13;0",
+									"left": 151,
+									"top": 592,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": -1.5957218837885074,
+									"distance": 361.1121709386157,
+									"hostEdge": {
+										"$ref": "AAAAAAFqC3yEzycGX0s="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqCzF7bCaNYxU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqCzN7+SbB+KQ="
+							},
+							"lineStyle": 2,
+							"points": "168:632;168:237;512:237",
+							"nameLabel": {
+								"$ref": "AAAAAAFqC3yEzycHTYQ="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqC32wGCcZbhg=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqC32wGCcXIFc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqC32wGCcap6k=",
+									"_parent": {
+										"$ref": "AAAAAAFqC32wGCcZbhg="
+									},
+									"model": {
+										"$ref": "AAAAAAFqC32wGCcXIFc="
+									},
+									"font": "Arial;13;0",
+									"left": 495,
+									"top": 758,
+									"width": 16.6181640625,
+									"height": 13,
+									"alpha": -3.9210028073497254,
+									"distance": 354.26684857604164,
+									"hostEdge": {
+										"$ref": "AAAAAAFqC32wGCcZbhg="
+									},
+									"edgePosition": 1,
+									"text": "No"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqCzF7bCaNYxU="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqCyfpDiXJniU="
+							},
+							"lineStyle": 2,
+							"points": "713:792;752:792;752:232;680:232",
+							"nameLabel": {
+								"$ref": "AAAAAAFqC32wGCcap6k="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqC34qEicnKd8=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqC34qEiclZus="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqC34qEicoKZs=",
+									"_parent": {
+										"$ref": "AAAAAAFqC34qEicnKd8="
+									},
+									"model": {
+										"$ref": "AAAAAAFqC34qEiclZus="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 611,
+									"top": 295,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqC34qEicnKd8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqBw2YK8MstbM="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqCzF7bCaNYxU="
+							},
+							"lineStyle": 2,
+							"points": "597:253;597:352",
+							"nameLabel": {
+								"$ref": "AAAAAAFqC34qEicoKZs="
+							}
+						},
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAFqC4j85ydI49I=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqC4j85idG/ik="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFqC4j85ydJ20I=",
+									"_parent": {
+										"$ref": "AAAAAAFqC4j85ydI49I="
+									},
+									"font": "Arial;13;0",
+									"left": 866,
+									"top": 354,
+									"width": 117,
+									"height": 65,
+									"text": "Count cells taken by each player. Define the winner by number of cells ownerd.",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 856,
+							"top": 344,
+							"width": 137,
+							"height": 85,
+							"nameLabel": {
+								"$ref": "AAAAAAFqC4j85ydJ20I="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqC4mc1CdUisc=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqC4mc1CdSTDs="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqC4mc1CdVNZM=",
+									"_parent": {
+										"$ref": "AAAAAAFqC4mc1CdUisc="
+									},
+									"model": {
+										"$ref": "AAAAAAFqC4mc1CdSTDs="
+									},
+									"font": "Arial;13;0",
+									"left": 652,
+									"top": 370,
+									"width": 21.20751953125,
+									"height": 13,
+									"alpha": -3.299832994595138,
+									"distance": 95.1892851112981,
+									"hostEdge": {
+										"$ref": "AAAAAAFqC4mc1CdUisc="
+									},
+									"edgePosition": 1,
+									"text": "Yes"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqC4j85ydI49I="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqBw2YK8MstbM="
+							},
+							"lineStyle": 2,
+							"points": "657:392;856:392",
+							"nameLabel": {
+								"$ref": "AAAAAAFqC4mc1CdVNZM="
+							}
+						},
+						{
+							"_type": "FCFlowView",
+							"_id": "AAAAAAFqC4qKWCdk4Vs=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv7Sa8LwNlw="
+							},
+							"model": {
+								"$ref": "AAAAAAFqC4qKWCdinSI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFqC4qKWCdlkAY=",
+									"_parent": {
+										"$ref": "AAAAAAFqC4qKWCdk4Vs="
+									},
+									"model": {
+										"$ref": "AAAAAAFqC4qKWCdinSI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 927,
+									"top": 889,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFqC4qKWCdk4Vs="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFqBv+ZQsMKuN0="
+							},
+							"tail": {
+								"$ref": "AAAAAAFqC4j85ydI49I="
+							},
+							"lineStyle": 2,
+							"points": "928:428;928:880;625:880",
+							"nameLabel": {
+								"$ref": "AAAAAAFqC4qKWCdlkAY="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFqBv8I6sL0jCQ=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "START",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqBw1UW8Mh+CQ=",
+							"_parent": {
+								"$ref": "AAAAAAFqBv8I6sL0jCQ="
+							},
+							"source": {
+								"$ref": "AAAAAAFqBv8I6sL0jCQ="
+							},
+							"target": {
+								"$ref": "AAAAAAFqBwBbMMMT1Vk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFqBv+ZQsMI29M=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "END"
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFqBwBbMMMT1Vk=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "Choose 1 player - Dice.dice(). Set moves_left to 7 for player 1 and 2.",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqCzMBiCa1bdY=",
+							"_parent": {
+								"$ref": "AAAAAAFqBwBbMMMT1Vk="
+							},
+							"source": {
+								"$ref": "AAAAAAFqBwBbMMMT1Vk="
+							},
+							"target": {
+								"$ref": "AAAAAAFqCzF7bCaLCtc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFqBw2YK8MqLIk=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "Player's moves =0?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqBxKnG8NS1bY=",
+							"_parent": {
+								"$ref": "AAAAAAFqBw2YK8MqLIk="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAFqBw2YK8MqLIk="
+							},
+							"target": {
+								"$ref": "AAAAAAFqBxF1XMNFJz0="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqC4mc1CdSTDs=",
+							"_parent": {
+								"$ref": "AAAAAAFqBw2YK8MqLIk="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAFqBw2YK8MqLIk="
+							},
+							"target": {
+								"$ref": "AAAAAAFqC4j85idG/ik="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFqBxF1XMNFJz0=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "Offer list of cells available for a move. - Board.neighbours()",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqCybn4yWe7xQ=",
+							"_parent": {
+								"$ref": "AAAAAAFqBxF1XMNFJz0="
+							},
+							"source": {
+								"$ref": "AAAAAAFqBxF1XMNFJz0="
+							},
+							"target": {
+								"$ref": "AAAAAAFqBxO2ccNeb5Y="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCData",
+					"_id": "AAAAAAFqBxO2ccNeb5Y=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "Player selects the cell he wants to take.",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqCycVxiWnATo=",
+							"_parent": {
+								"$ref": "AAAAAAFqBxO2ccNeb5Y="
+							},
+							"source": {
+								"$ref": "AAAAAAFqBxO2ccNeb5Y="
+							},
+							"target": {
+								"$ref": "AAAAAAFqBxQ9UMNqqLk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFqBxQ9UMNqqLk=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "Is cell taken?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqCyvgBSX1rnI=",
+							"_parent": {
+								"$ref": "AAAAAAFqBxQ9UMNqqLk="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAFqBxQ9UMNqqLk="
+							},
+							"target": {
+								"$ref": "AAAAAAFqCydGzSWwxI0="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqCyxNTiYOAik=",
+							"_parent": {
+								"$ref": "AAAAAAFqBxQ9UMNqqLk="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAFqBxQ9UMNqqLk="
+							},
+							"target": {
+								"$ref": "AAAAAAFqCyfpDiXHgDU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFqCydGzSWwxI0=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "Player takes the cell",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqC3tEJSbaSiA=",
+							"_parent": {
+								"$ref": "AAAAAAFqCydGzSWwxI0="
+							},
+							"source": {
+								"$ref": "AAAAAAFqCydGzSWwxI0="
+							},
+							"target": {
+								"$ref": "AAAAAAFqCzN7+Sa/UF0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFqCyfpDiXHgDU=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "Board decides with dice(). Attack was successful? ",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqCy0+zSYag3g=",
+							"_parent": {
+								"$ref": "AAAAAAFqCyfpDiXHgDU="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAFqCyfpDiXHgDU="
+							},
+							"target": {
+								"$ref": "AAAAAAFqCydGzSWwxI0="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqC32wGCcXIFc=",
+							"_parent": {
+								"$ref": "AAAAAAFqCyfpDiXHgDU="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAFqCyfpDiXHgDU="
+							},
+							"target": {
+								"$ref": "AAAAAAFqCzF7bCaLCtc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFqCzF7bCaLCtc=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "Another player makes the move. His moves -=1",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqC34qEiclZus=",
+							"_parent": {
+								"$ref": "AAAAAAFqCzF7bCaLCtc="
+							},
+							"source": {
+								"$ref": "AAAAAAFqCzF7bCaLCtc="
+							},
+							"target": {
+								"$ref": "AAAAAAFqBw2YK8MqLIk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCDecision",
+					"_id": "AAAAAAFqCzN7+Sa/UF0=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "Is this other player's home cell?",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqC3vlVSbuvuE=",
+							"_parent": {
+								"$ref": "AAAAAAFqCzN7+Sa/UF0="
+							},
+							"name": "Yes",
+							"source": {
+								"$ref": "AAAAAAFqCzN7+Sa/UF0="
+							},
+							"target": {
+								"$ref": "AAAAAAFqC3utVCbjZbw="
+							}
+						},
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqC3yEzycEhRw=",
+							"_parent": {
+								"$ref": "AAAAAAFqCzN7+Sa/UF0="
+							},
+							"name": "No",
+							"source": {
+								"$ref": "AAAAAAFqCzN7+Sa/UF0="
+							},
+							"target": {
+								"$ref": "AAAAAAFqCzF7bCaLCtc="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFqC3utVCbjZbw=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "Player won",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqC3wtoCb5aEs=",
+							"_parent": {
+								"$ref": "AAAAAAFqC3utVCbjZbw="
+							},
+							"source": {
+								"$ref": "AAAAAAFqC3utVCbjZbw="
+							},
+							"target": {
+								"$ref": "AAAAAAFqBv+ZQsMI29M="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAFqC4j85idG/ik=",
+					"_parent": {
+						"$ref": "AAAAAAFqBv7SasLvO58="
+					},
+					"name": "Count cells taken by each player. Define the winner by number of cells ownerd.",
+					"ownedElements": [
+						{
+							"_type": "FCFlow",
+							"_id": "AAAAAAFqC4qKWCdinSI=",
+							"_parent": {
+								"$ref": "AAAAAAFqC4j85idG/ik="
+							},
+							"source": {
+								"$ref": "AAAAAAFqC4j85idG/ik="
+							},
+							"target": {
+								"$ref": "AAAAAAFqBv+ZQsMI29M="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

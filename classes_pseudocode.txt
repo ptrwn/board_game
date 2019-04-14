@@ -1,0 +1,48 @@
+class Dice()
+	@staticmethod
+	def dice_throw()
+		# randomizer
+		return Boolean
+
+class Board()
+	cells = []
+	def cells_for_attack(player):
+		# select sells that belong to the player passed as argument
+		# make a list cells that are neighbours to players'
+		# e.g. list of cells that have difference in coordinates 0 or 1
+		return list_of_cells
+				
+
+class Controller()
+	players = []
+	moves_counter_1 = int
+	moves_counter_2 = int
+	current_cells_for_attack = []
+	
+	def check_victory()
+		# is any start cell taken?
+		# have both players made 7 moves?
+		return Boolean
+		
+	def move(Board.cell, player)
+		#mark cell as owned by player
+		
+	def throw_dice(Dice)
+	
+	def get_cells_for_attack(Board)
+	
+
+class Viewer()
+	def offer_to_make_move(player)
+		# show list of cells available for attack to the player
+		
+	def show_board(player, Board.cells)
+	
+	def get_move_from_user()
+		# read input from player
+		
+	def end_of_game()
+		# finish the game, notify player
+	
+	
+	
